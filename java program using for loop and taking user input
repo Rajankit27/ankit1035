@@ -1,0 +1,23 @@
+import java.util.*;
+public class variable {
+    public static void main(String[] args) {
+        //variables
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number:");
+        int a = sc.nextInt();
+        for (int i = 0; i <= a; i++) {
+            String name = "Aman";
+            int age = 30;
+            String neighbour = "Alok";
+            String friend;
+            friend = neighbour;
+            // Print the values (to see the effect of the assignment
+            System.out.println("Name:" + name + "  ");
+            System.out.println("Age:" + age + "  ");
+            System.out.println("Neighbour:" + neighbour + "  ");
+            System.out.println("friend:" + friend + "  ");
+            System.out.println("a:"+a+"  ");
+        }
+    }
+}
+
